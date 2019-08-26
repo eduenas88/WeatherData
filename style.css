@@ -53,9 +53,6 @@ img {
   color: #DEFFF2;
   cursor: pointer;
 }
-img {
-    display: inline-block;
-  }
 
 table {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -92,4 +89,21 @@ table th {
     display: block;
     text-align: left;
   }
-  
+h1{
+  background-color: #DEFFF2;
+  color: #000009; 
+}  
+
+.Decor {
+  position: relative; 
+  border: 5px;
+  padding: 20px;
+  color: #000009;
+  background-color: #defff2;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
