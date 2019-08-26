@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #0FF4C6;
+  }
+.content-left {
+    position: relative; 
+    border: 5px;
+    padding: 20px;
+    color: #000009;
+    background-color: #defff2;
+  }
+.content-left h1{
+  text-align: left; 
+}
+.content-right col - 6 p{ 
+    align-self: auto;
+    border: 10px;
+    border-left: 0px; 
+    color: #000009;
+  }
+.content-right{
+    position: relative; 
+    border: 5px;
+    padding: 20px;
+    color: #000009;
+    background: #defff2;
+  }
+.content-right h2{
+  text-align: left;
+}
+
+}
+img {
+    float: center;
+    width: 25%;
+  }
+.navbar{
+  navbar-light 
+  background-color: #464f51; 
+}
+.navbar-brand {
+    background-color: #d68fd6;
+    border-radius: 12px; 
+    padding: 10px;
+    border-style: 5px; 
+  }
+.navbar-collapse {
+    justify-content: flex-end;
+  }
+.nav-link,
+.navbar-brand {
+  color: #DEFFF2;
+  cursor: pointer;
+}
+img {
+    display: inline-block;
+  }
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+table td, table th {
+    border: 10px solid #464f51;
+    padding: 10px;
+  }
+  
+table tr:nth-child(even){background-color: #DEFFF2;}
+  
+table tr:hover {background-color: whitesmoke;}
+  
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #defff2;
+    color: #000009;
+  }
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: whitesmoke; 
+  }
+
+.dropdown:hover .dropdown-menu  {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
